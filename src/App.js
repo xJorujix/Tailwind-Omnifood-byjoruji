@@ -1,8 +1,4 @@
-import React, {useState} from 'react'
-import { CgInfinity } from "react-icons/cg";
-import { BsStopwatch } from "react-icons/bs";
-import { FaCarrot } from "react-icons/fa";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import React from 'react'
 
 function App() {
 
@@ -33,26 +29,24 @@ function App() {
             </div>
             <div class="w-screen max-w-6xl flex ml-56 font-thin">
                 <div class="p-1 mt-3 ml-24">
-                    <h3 className="text-center mb-4"><CgInfinity className='ml-4' fontSize={50} color='orange'/> UP TO 365 DAYS/YEAR</h3>
+                    <h3 className="text-center mb-4"> UP TO 365 DAYS/YEAR</h3>
                     <p className='text-center'>
                         Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
                     </p>    
                 </div>
                 
                 <div class=" p-1 mt-3 ml-24 ">
-                    <h3 className="text-center mb-4"><BsStopwatch className='ml-4' fontSize={50} color='orange'/> READY IN 20 MINUTES</h3>
                     <p className='text-center'>
                         You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
                     </p>
                 </div>
                 <div class="p-1 mt-3 ml-24 ">
-                    <h3 className="text-center mb-4"><FaCarrot className='ml-8' fontSize={50} color='orange'/> 100% ORGANIC</h3>
+                    <h3 className="text-center mb-4">  100% ORGANIC</h3>
                     <p className='text-center h-2'>
                         All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
                     </p>
                 </div>
                 <div class=" p-1 mt-3 ml-24 ">
-                    <h3 className="text-center mb-4"><AiOutlineShoppingCart className='ml-4' fontSize={50} color='orange'/> ORDER ANYTHING</h3>
                     <p className='text-center'>
                         We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
                     </p>
