@@ -99,33 +99,6 @@ function App() {
                 </li>
             </ul>
 </section>
-<section className='bg-white'>
-<div class="max-w-6xl ml-96">
-                <h2 className='text-6xl font-thin' >How it works - Simple as 1, 2, 3</h2>
-            </div>
-            <div class="max-w-6xl ml-10">
-                <div class="ml-80 mt-8">
-                    <img className='h-96' src="app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen js--wp-2"/>
-                </div>
-                <div class="-mt-80 -mr-24">
-                    <div className='flex justify-end mb-4 '>
-                        <div className='  text-orange-500 border-2  border-orange-500 w-14 h-14 rounded-full pl-5 pt-4 '>1</div>
-                        <p className='mt-3 ml-5'>Choose the subscription plan that best fits your needs <br/>and sign up today.</p>
-                    </div>
-                    <div class='flex justify-end mb-4 '>
-                        <div className='text-orange-500 border-2  border-orange-500 w-14 h-14 rounded-full pl-5 pt-4 '>2</div>
-                        <p className='mt-3 ml-10 '>Order your delicious meal using our mobile app or<br/> website. Or you can even call us!</p>
-                    </div>
-                    <div class="flex justify-end mb-4">
-                        <div className='text-orange-500 border-2  border-orange-500 w-14 h-14 rounded-full pl-5 pt-4 '>3</div>
-                        <p className='mt-3 ml-9'>Enjoy your meal after less than 20 minutes. See you<br/> the next time!</p>
-                    </div>
-                    <div className='flex justify-end mt-2'>
-                    <a ><img className='h-14 w-auto' src="download-app.svg" alt="App store"/></a>
-                    <a  ><img className='h-14 w-auto' src="download-app-android.png" alt="Play story"/></a>
-                </div></div>
-            </div>
-</section>
 </div>
   );
 }
